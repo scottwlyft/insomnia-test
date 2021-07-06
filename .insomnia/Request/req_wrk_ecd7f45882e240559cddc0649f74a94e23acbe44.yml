@@ -1,7 +1,7 @@
 _id: req_wrk_ecd7f45882e240559cddc0649f74a94e23acbe44
 type: Request
 parentId: fld_wrk_ecd7f45882e240559cddc0649f74a94e1b034c38
-modified: 1625609756672
+modified: 1625615024621
 created: 1625609756672
 url: "{{ base_url }}/pet"
 name: Add a new pet to the store
@@ -16,7 +16,7 @@ body:
         "id": 0,
         "name": "string"
       },
-      "name": "doggie",
+      "name": "food",
       "photoUrls": [
         "string"
       ],
@@ -32,6 +32,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_108ee10e02304d8da3f63a333301d4cf
 authentication: {}
 metaSortKey: -1625609756672
 isPrivate: false
